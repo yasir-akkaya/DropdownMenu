@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Ödevi</title>
+
+</head>
+<body>
+     <div class="navbar">
+            <ul class="menu-list">
+                <li class="list-item"><a href="#">ANASAYFA</a></li>
+                <li class="list-item"><a href="#">İLETİŞİM</a></li>
+                <li class="list-item blog" ><a href="#">BLOG</a></li>
+                <li class="list-item"><a href="#">HAKKINDA</a></li>
+                
+            </ul>
+            <div class="drop-box">
+                <ul class="drop-list">
+                    <li>Doğa Resimleri</li>
+                    <li>İnsan Resimleri</li>
+                    <li>Araba Resimleri</li>
+                </ul>
+            </div>
+     </div>
+       
+
+        
+</body>
+</html>
+<style>
+    .navbar{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.navbar .menu-list{
+    text-align: center;
+    list-style: none;
+    float: left;
+   
+}
+.navbar .menu-list .list-item{
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+   border: 1px double black  ;
+   background-color: red;
+}
+.navbar .menu-list .list-item a{
+    text-decoration: none;
+    color: white;
+}
+.drop-box{
+    background-color: red;
+    color: white;
+    width: 80px;
+    margin-left: 250px;
+    text-align: center;
+    border-radius: 5px;
+   
+    position: absolute;
+}
+.drop-box .drop-list{
+    list-style: none;
+   
+}
+.drop-box .drop-list li{
+    text-decoration: none;
+   
+}
+
+.blog a:hover {
+    display: block;
+    color: black !important;
+}
+
+</style>
